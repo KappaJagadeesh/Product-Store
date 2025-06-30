@@ -15,8 +15,9 @@ A full-stack **MERN** (MongoDB, Express, React, Node.js) application for managin
 ---
 
 ## 📂 Folder Structure
-
+```
 product-store/
+│
 ├── client/ # React frontend (Vite)
 │ ├── src/
 │ │ ├── components/ # Reusable UI components
@@ -25,16 +26,17 @@ product-store/
 │ │ ├── App.jsx
 │ │ ├── main.jsx
 │ ├── index.html
-│ └── ...
+│ └── ... # Other frontend files
+│
 ├── server/ # Express backend
 │ ├── models/ # Mongoose schemas
 │ ├── routes/ # API routes
 │ ├── controllers/ # Request handlers
 │ ├── server.js # Entry point
-│ └── .env
+│ └── .env # Environment variables
+│
 └── README.md
-
-
+```
 ---
 
 ## 🚀 Getting Started
