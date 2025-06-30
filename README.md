@@ -50,27 +50,22 @@ product-store/
 ---
 
 ###
-
+```
 🔗 API Endpoints
 Method	Endpoint	Description
 GET	/api/products	Get all products
 POST	/api/products	Create a new product
 PUT	/api/products/:id	Update a product
 DELETE	/api/products/:id	Delete a product
+```
+## 📦 Main Packages Used
 
-📦 Main Packages Used in Frontend
+### 🚀 Frontend
+- **React** / **React Router DOM** — For building the SPA and routing
+- **@mui/material** — Material UI for modern, responsive components
+- **Zustand** — Lightweight state management
 
-react/react-router-dom
-
-@mui/material UI 
-
-zustand
-
-in Backend
-
-express
-
-mongoose
-
-mongodb(atlas)
-
+### 🗄️ Backend
+- **Express** — Minimal and flexible Node.js web framework
+- **Mongoose** — ODM for MongoDB
+- **MongoDB Atlas** — Cloud-hosted MongoDB database
