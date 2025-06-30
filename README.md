@@ -54,7 +54,7 @@ product-store/
 🔗 API Endpoints
 Method	Endpoint	           Description
 GET	/api/products        	Get all products
-POST	/api/products	    Create a new product
+POST	/api/products	      Create a new product
 PUT	/api/products/:id	    Update a product
 DELETE	/api/products/:id	Delete a product
 ```
